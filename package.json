@@ -15,8 +15,8 @@
     }
   },
   "lint-staged": {
-    "*.css": "stylelint",
-    "*.js": "eslint"
+    "src/**/*.{css,scss}": "stylelint",
+    "src/**/*.{js,jsx,ts,tsx}": "eslint"
   },
   "dependencies": {
     "react": "^17.0.1",
